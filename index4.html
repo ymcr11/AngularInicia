@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="mainModule">
+	<head>
+	
+	<title>
+		Ejemplo petición Ajax
+	</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+	<script src="angular-local-storage.min.js"></script>
+	<script src="controller4.js"></script>
+	</head>
+	<body ng-controller="filtersController">			
+		{{mi_html | json}}	
+		{{costo | currency}}
+	</body>
+</html>
